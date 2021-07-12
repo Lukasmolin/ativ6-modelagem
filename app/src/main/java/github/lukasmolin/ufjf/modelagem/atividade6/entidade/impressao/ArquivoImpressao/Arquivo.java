@@ -1,10 +1,10 @@
-package github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.ArquivoDeImpressao;
+package github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.ArquivoImpressao;
 
 import java.util.List;
 
 public class Arquivo {
     private String nomeDoArquivo;
-    private List<ArquivoDeImpressao> impressoes;
+    private List<ArquivoImpressao> impressoes;
 
     public String getNomeDoArquivo() {
         return nomeDoArquivo;
@@ -14,11 +14,11 @@ public class Arquivo {
         this.nomeDoArquivo = nomeDoArquivo;
     }
 
-    public List<ArquivoDeImpressao> getImpressoes() {
+    public List<ArquivoImpressao> getImpressoes() {
         return impressoes;
     }
 
-    public void setImpressoes(List<ArquivoDeImpressao> impressoes) {
+    public void setImpressoes(List<ArquivoImpressao> impressoes) {
         this.impressoes = impressoes;
     }
 }

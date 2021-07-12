@@ -1,18 +1,18 @@
-package github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.ArquivoDeImpressao;
+package github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.ArquivoImpressao;
 
-import github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.PedidoDeImpressao;
+import github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.PedidoImpressao;
 
-public class ArquivoDeImpressao {
-    private CorDaImpressao cor;
+public class ArquivoImpressao {
+    private CorImpressao cor;
     private Arquivo arquivo;
     private int numCopias;
-    private PedidoDeImpressao pedido;
+    private PedidoImpressao pedido;
 
-    public CorDaImpressao getCor() {
+    public CorImpressao getCor() {
         return cor;
     }
 
-    public void setCor(CorDaImpressao cor) {
+    public void setCor(CorImpressao cor) {
         this.cor = cor;
     }
 
@@ -32,11 +32,11 @@ public class ArquivoDeImpressao {
         this.numCopias = numCopias;
     }
 
-    public PedidoDeImpressao getPedido() {
+    public PedidoImpressao getPedido() {
         return pedido;
     }
 
-    public void setPedido(PedidoDeImpressao pedido) {
+    public void setPedido(PedidoImpressao pedido) {
         this.pedido = pedido;
     }
 }

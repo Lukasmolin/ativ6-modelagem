@@ -3,15 +3,15 @@ package github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao;
 import java.util.Date;
 import java.util.List;
 
-import github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.ArquivoDeImpressao.ArquivoDeImpressao;
+import github.lukasmolin.ufjf.modelagem.atividade6.entidade.impressao.ArquivoImpressao.ArquivoImpressao;
 
-public class PedidoDeImpressao {
+public class PedidoImpressao {
     private Date horaDoPedido;
     private Date horaDaEntrega;
     private int numeroDoPedido;
     private Pagamento pagamento;
-    private StatusDoPedido status;
-    private List<ArquivoDeImpressao> arquivosDoPedido;
+    private StatusPedido status;
+    private List<ArquivoImpressao> arquivosDoPedido;
     private ISolicitanteImpressao solicitante;
     private IResponsavelImpressao responsavel;
 
@@ -47,19 +47,19 @@ public class PedidoDeImpressao {
         this.pagamento = pagamento;
     }
 
-    public StatusDoPedido getStatus() {
+    public StatusPedido getStatus() {
         return status;
     }
 
-    public void setStatus(StatusDoPedido status) {
+    public void setStatus(StatusPedido status) {
         this.status = status;
     }
 
-    public List<ArquivoDeImpressao> getArquivosDoPedido() {
+    public List<ArquivoImpressao> getArquivosDoPedido() {
         return arquivosDoPedido;
     }
 
-    public void setArquivosDoPedido(List<ArquivoDeImpressao> arquivosDoPedido) {
+    public void setArquivosDoPedido(List<ArquivoImpressao> arquivosDoPedido) {
         this.arquivosDoPedido = arquivosDoPedido;
     }
 
